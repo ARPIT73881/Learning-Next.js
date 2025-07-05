@@ -7,6 +7,7 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
+  console.log("Running Vite + React App");
 
   return (
     <>

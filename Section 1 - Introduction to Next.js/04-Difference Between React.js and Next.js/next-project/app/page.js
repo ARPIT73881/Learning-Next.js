@@ -1,7 +1,16 @@
+// Dynamic Server
+
+// "use client";
+
 import Image from "next/image";
 
 export default function Home() {
+  console.log("Running Next.js App");
   return (
+    // will generate error and tell to convert it to a client component
+    // <h1 onClick={() => console.log("Clicked")}>Hello Next.js</
+    // return <h1 onClick={"Clicked"}>Hello Next.js</h1>;
+
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
